@@ -1,0 +1,54 @@
+.kit{
+    width:7em;
+    height:7em;
+    display: inline-block;
+    border: 2px dotted black;
+    text-align: center;
+    transition: all 0.07s;
+
+}
+
+h1{
+    font-family: poppins;
+    text-align: center;
+    font-size:6rem;
+    color:burlywood
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+    height:40vh;   
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 4rem;
+}
+
+p{
+    font-family: Poppins;
+    color:black;
+    font-weight:bold;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
+    font-family: poppins;
+    color: burlywood;
+    margin-top: 10rem;
+}
+.animation{
+    border: 2px solid burlywood;
+    box-shadow: 2px burlywood;
+}
